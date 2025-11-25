@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.WelcomeController"
+      alignment="CENTER" spacing="20" prefWidth="360" prefHeight="220" style="-fx-padding:20;">
+    <Label fx:id="welcomeLabel" text="Welcome! You are logged in." style="-fx-font-size:16px;"/>
+    <Button text="Logout" onAction="#handleLogout" prefWidth="120"/>
+</VBox>

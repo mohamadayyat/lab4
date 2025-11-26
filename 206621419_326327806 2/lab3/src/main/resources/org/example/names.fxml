@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            prefHeight="200.0" prefWidth="400.0">
-
-    <children>
-        <Label text="Mohamad Ayyat - 206621419
-Ruslan Mahamed - 326327806"
-               layoutX="50.0" layoutY="70.0"
-               style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
-    </children>
-</AnchorPane>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      spacing="10" alignment="CENTER"
+      prefWidth="400" prefHeight="200"
+      style="-fx-padding:20;">
+    <Label text="Mohamad Ayyat - 206621419"/>
+    <Label text="Ruslan Mahamed - 326327806"/>
+</VBox>
